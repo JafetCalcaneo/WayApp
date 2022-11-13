@@ -1,0 +1,1 @@
+document.getElementById("btn").addEventListener("click",(function(){alert("Boton index")})),alert("Un nuevo comienzo ;)"),document.getElementById("btn2").addEventListener("click",(function(){alert("Boton register")})),alert("Un nuevo comienzo 2;)");

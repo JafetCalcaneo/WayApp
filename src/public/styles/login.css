@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Zen+Kaku+Gothic+Antique:wght@900&family=Zen+Kaku+Gothic+New:wght@500&display=swap');
+body {
+    background: #FFFFFF;
+    font-size: 30px;
+    font-family: Nanum Gothic;
+}
+
+.background {
+    /* background: rgba(215,208,207,255); */
+    background: linear-gradient(to bottom, rgba(215,208,207,255), rgba(165,160,159,255));
+    width: 100%;
+    height: 31.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.floating-window {
+    background: #FFFFFF;
+    width: 83%;
+    height: 93%;
+    border-radius: 40px;  
+    box-shadow: 12px 20px 22px rgba(0,0,0,0.3);
+    display: flex;
+  
+}
+
+.img {
+    
+    border-radius: 40px;
+    width: 20em;
+    height: 100%;
+    margin-right: 70px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.headers {
+    margin-top: 90px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.inputs input{
+    margin-top: 20px;
+    height: 2.1em;
+}
+
+.clase-boton {
+    background: rgba(2,0,0,255);
+    color: #FFFFFF;
+    margin-top: 20px;
+    height: 2.1em;
+}
+
+.help {
+    
+    margin-top: 60px;
+}
+
+.help a {
+    color: black;
+}
+.p a {
+    color:#0084D8;
+}
+
+.img-fluid {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    
+    height: 870.46px;
+}
+
+.icono-iniciales2 {
+    background: #34cfee ;
+    border-radius: 80%;
+    padding-bottom: 8px;
+    height: 32px;
+    width: 40px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+/* ---------------------PAGINA CONECTED----------------- */
+.caja-principal{
+    background: violet;
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    height: 31.2em; 
+
+}
+.cabecera-principal {
+    background: #90E0EF;
+    width: 100%;
+    height: 5.2em;
+    font-family: Rubik;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.datos-usuario {
+    background: #90E0EF;
+    height: 2.5em;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.datos-usuario div {
+    background: #90E0EF;
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.contenido-principal {
+    background: #0084D8;
+    width: 100%;
+    height: 21em;
+
+}
+
+.pie-principal {
+    background: black;
+    width: 100%;
+    height: 6.3em;
+}
+
+.botones {
+    background: #0084D8;
+    width: 70%;
+    height: 100%;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.btn {
+    background: #5e2129;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 35px;
+    overflow: hidden;
+    margin: 25px;
+    transition: 1s;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-form-conected {
+    background: #5e2129;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 35px;
+    overflow: hidden;
+    margin: 25px;
+    transition: 1s;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-news-conected {
+    background: #5e2129;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 35px;
+    overflow: hidden;
+    margin: 25px;
+    transition: 1s;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    transform: scale(1.20);
+}
+
+.btn-form-conected:hover {
+    transform: scale(1.20);
+}
+/* Formulario */
+.formulario {
+    background: #5e2129;
+    margin: 0px 25rem 0px 25rem;
+    height: 100%;
+    font-family: "Comfortaa";
+    color: #FFFFFF;
+}
+
+.formulario form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Comfortaa";
+}
+
+.formulario input {
+    width: 20rem;
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+
+#contenido{
+ height: 100px;
+}
+
+.titulo-form {
+    display: flex;
+    
+}
+.titulo-text {
+    width: 6em;
+}
+.autor-text {
+    width: 6em;
+}
+.descripcion-text {
+    width: 6em;
+}
+.contenido-text {
+    width: 6em;
+}
+
+/* Articulos */
+
+.caja-background-news {
+    background: #5e2129;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 58.5rem;
+}
+
+.header-news {
+    width: 100%;
+    height: 9rem;
+    background: #0084D8;
+}
+
+.caja-principal-news {
+    width: 100%;
+    height: 41rem;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.caja-secundaria-news {
+    width: 95%;
+    height: 37rem;
+    background: #34cfee;
+    margin: 2rem 3rem 2rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 16rem;
+    height: 15rem;
+    background: #5e2129;
+    border-radius: 4px;
+    margin: 20px 10px 20px 10px;
+    transition: 0.7s;
+}
+
+.box:hover {
+    transform: scale(1.07);
+}
+
+.mini-box {
+    width: 95%;
+    height: 14rem;
+    background: blanchedalmond;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.idArticle {
+    font-size: 16px;
+}
