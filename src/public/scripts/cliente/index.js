@@ -10,6 +10,18 @@ const btn = document.querySelector('#btn');
 title.textContent +=` ${username}!`;
 img.title = img.alt;
 
+var link = document.getElementById("audio");
+//  Definimos el evento que escucha
+const elBichoAudio = function(e) {
+    e.preventDefault();
+    var audio = document.createElement("audio");
+    audio.src = "SIUUU.mp3";
+    audio.autoplay = "true";
+    document.body.appendChild(audio);
+};
+//  Agregamos el evento al elemento
+link.addEventListener("click", elBichoAudio);
+
 btn.addEventListener('click', () =>{
     fetch('http://localhost:4000/api/subs/subscribe', {
         method: 'POST',

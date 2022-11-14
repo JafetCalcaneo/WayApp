@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
+import CONF from './config';
 
-mongoose.connect('mongodb://localhost/wayappdb', {
+mongoose.connect(CONF.MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })

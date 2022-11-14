@@ -1,3 +1,7 @@
+if(process.env.NODE_ENV !== 'production'){
+  require ('dotenv').config();
+}
+
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -12,11 +16,7 @@ app.use(express.json());
 app.use(express.static('./dist'))
 app.use(express.static('./src/public'));
 app.use(express.static(path.join(__dirname,'public')))
-app.use(
-    cors({
-      origin: "http://localhost:4000",
-    })
-  );
+app.use(cors());
 
 app.get('/', (req, res)=>{
     res.sendFile(path.resolve(__dirname,'../dist/index.html'))
