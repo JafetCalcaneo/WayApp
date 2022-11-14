@@ -2,16 +2,15 @@
   "name": "wayapp",
   
   "version": "1.0.0",
-  "type": "module", 
+   
   "main": "./lib/index.js",
   
   "scripts": {
   
   "dev": "npx babel ./src/build --out-dir lib && nodemon ./lib/index.js",
   
-  "con": "npx babel ./src/build --out-dir lib",
-  "start": "node src/build/index.js"
-  
+  "con": "npx babel ./src/build --out-dir lib"
+
   },
   
   "dependencies": {
