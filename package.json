@@ -11,7 +11,7 @@
   "dev": "npx babel ./src/build --out-dir lib && nodemon ./lib/index.js",
   
   "con": "npx babel ./src/build --out-dir lib",
-  "start": "node src/index.js"
+  "start": "node src/build/index.js"
   
   },
   
