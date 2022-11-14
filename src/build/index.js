@@ -1,6 +1,4 @@
-
-
-import app from './app';
+import app from './app.js';
 import './db';
 import CONF from './config';
 
