@@ -11,7 +11,7 @@
   "dev": "npx babel ./src/build --out-dir lib && nodemon ./lib/index.js",
   
   "con": "npx babel ./src/build --out-dir lib",
-  "npm start": "cross-env NODE_ENV=production node lib/index.js"
+  "start": "cross-env NODE_ENV=production node ./lib/index.js"
   
   },
   
