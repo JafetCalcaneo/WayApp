@@ -5,10 +5,10 @@ if(process.env.NODE_ENV !== 'production'){
 const express = require('express');
 const app = express();
 const path = require('path');
-import authRoutes from './routes/auth.routes';
-import subsRoutes from './routes/subs.routes';
+import authRoutes from './routes/auth.routes.js';
+import subsRoutes from './routes/subs.routes.js';
 import cors from "cors";
-import {createRoles} from './libs/initialSetup';
+import {createRoles} from './libs/initialSetup.js';
 
 import loginRoutes from './routes/login.routes';
 createRoles();
