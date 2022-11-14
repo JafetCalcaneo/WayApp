@@ -11,6 +11,7 @@
   "dev": "npx babel ./src/build --out-dir lib && nodemon ./lib/index.js",
   
   "con": "npx babel ./src/build --out-dir lib",
+  "postinstall": "npm run con",
   "start": "NODE_ENV=production node ./lib/index.js"
   
   },
