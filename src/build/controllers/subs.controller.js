@@ -1,4 +1,4 @@
-import Subscriber from "../models/Subscriber";
+import Subscriber from "../models/Subscriber.js";
 import jwt  from "jsonwebtoken";
 import SECRET from '../config';
 

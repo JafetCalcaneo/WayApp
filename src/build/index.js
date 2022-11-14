@@ -1,6 +1,6 @@
 import app from './app.js';
-import './db';
-import CONF from './config';
+import './db.js';
+import CONF from './config.js';
 
 console.log(CONF)
 app.listen(CONF.PORT, ()=>{

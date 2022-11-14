@@ -1,7 +1,7 @@
-import User from '../models/User';
+import User from '../models/User.js';
 import jwt from 'jsonwebtoken';
-import SECRET from '../config';
-import Role from '../models/Role';
+import SECRET from '../config.js';
+import Role from '../models/Role.js';
 import { verifySignup, authJwt } from '../middlewares';
 import { verifyToken } from '../middlewares/authJwt';
 

@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import CONF from './config';
+import CONF from './config.js';
 
 mongoose.connect(CONF.MONGODB_URI, {
     useNewUrlParser: true,
