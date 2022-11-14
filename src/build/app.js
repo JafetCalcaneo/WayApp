@@ -8,7 +8,7 @@ const path = require('path');
 import authRoutes from './routes/auth.routes.js';
 import subsRoutes from './routes/subs.routes.js';
 import cors from "cors";
-import {createRoles} from './libs/initialSetup.js';
+import {createRoles} from './libs/initialSetUp.js';
 
 import loginRoutes from './routes/login.routes';
 createRoles();
